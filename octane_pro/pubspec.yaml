@@ -1,0 +1,91 @@
+name: octane_pro
+description: "OctanePro - Enterprise Fuel Station Management System"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Design
+  cupertino_icons: ^1.0.8
+  flutter_animate: ^4.5.0
+  shimmer: ^3.0.0
+  lottie: ^3.1.2
+  flutter_svg: ^2.0.10+1
+  
+  # State Management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+  
+  # Database & Storage
+  sqflite: ^2.3.0
+  path: ^1.9.0
+  shared_preferences: ^2.2.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  
+  # Networking & Sync
+  dio: ^5.4.0
+  connectivity_plus: ^6.0.3
+  workmanager: ^0.5.2
+  
+  # Authentication & Security
+  crypto: ^3.0.3
+  local_auth: ^2.1.7
+  
+  # Navigation
+  go_router: ^12.0.0
+  
+  # Forms & Validation
+  flutter_form_builder: ^9.1.1
+  
+  # Date & Time
+  timeago: ^3.6.1
+  
+  # File Operations
+  file_picker: ^6.1.1
+  path_provider: ^2.1.1
+  open_filex: ^4.3.2
+  
+  # PDF & Excel Export
+  pdf: ^3.10.7
+  excel: ^4.0.4
+  printing: ^5.12.0
+  
+  # Charts & Analytics
+  fl_chart: ^0.66.0
+  
+  # Utilities
+  uuid: ^4.3.3
+  equatable: ^2.0.5
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+  
+  # Image Handling
+  image_picker: ^1.0.7
+  cached_network_image: ^3.3.0
+  
+  # Permissions
+  permission_handler: ^11.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.7
+  freezed: ^2.4.7
+  json_serializable: ^6.7.1
+  riverpod_generator: ^2.3.9
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/animations/
+    - assets/icons/
